@@ -10,23 +10,3 @@ describe("",()=>{
         expect(parentDiv.classList).toContain("flex")
     })
 })
-
-test("echart test onmount",()=>{
-    const { container } = render(comp)
-    onMount(container);
-})
-
-test('echart test get EchartCompoent attributes',()=>{
-    const { container } = render(comp)
-    console.log("333",container.lastChild.firstChild.title)
-    console.log("333",container.lastChild.firstChild.data)
-    console.log("333",container.lastChild.firstChild.refresh)
-})
-
-
-test('echart test get EchartCompoent attributes',()=>{
-    const { container } = render(comp)
-    console.log("333",container.firstChild.firstChild.title)
-    console.log("333",container.firstChild.firstChild.data)
-    console.log("333",container.firstChild.firstChild.refresh)
-})

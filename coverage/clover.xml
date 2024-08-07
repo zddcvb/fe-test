@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1722755586413" clover="3.2.0">
-  <project timestamp="1722755586414" name="All files">
-    <metrics statements="430" coveredstatements="430" conditionals="25" coveredconditionals="20" methods="1" coveredmethods="1" elements="456" coveredelements="451" complexity="0" loc="430" ncloc="430" packages="5" files="10" classes="10"/>
+<coverage generated="1722992035905" clover="3.2.0">
+  <project timestamp="1722992035905" name="All files">
+    <metrics statements="414" coveredstatements="414" conditionals="22" coveredconditionals="17" methods="1" coveredmethods="1" elements="437" coveredelements="432" complexity="0" loc="414" ncloc="414" packages="5" files="10" classes="10"/>
     <package name="components">
       <metrics statements="139" coveredstatements="139" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="EchartCompoent.svelte" path="D:\workspace\kit\blog\src\components\EchartCompoent.svelte">
+      <file name="EchartCompoent.svelte" path="D:\workplace\fe-test\src\components\EchartCompoent.svelte">
         <metrics statements="60" coveredstatements="60" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -67,7 +67,7 @@
         <line num="85" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="86" count="1" type="stmt"/>
       </file>
-      <file name="FlowEchartCompoent.svelte" path="D:\workspace\kit\blog\src\components\FlowEchartCompoent.svelte">
+      <file name="FlowEchartCompoent.svelte" path="D:\workplace\fe-test\src\components\FlowEchartCompoent.svelte">
         <metrics statements="79" coveredstatements="79" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -152,7 +152,7 @@
     </package>
     <package name="pages.echart">
       <metrics statements="71" coveredstatements="71" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="+page.svelte" path="D:\workspace\kit\blog\src\pages\echart\+page.svelte">
+      <file name="+page.svelte" path="D:\workplace\fe-test\src\pages\echart\+page.svelte">
         <metrics statements="71" coveredstatements="71" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -229,7 +229,7 @@
     </package>
     <package name="pages.email">
       <metrics statements="90" coveredstatements="90" conditionals="4" coveredconditionals="1" methods="0" coveredmethods="0"/>
-      <file name="+page.svelte" path="D:\workspace\kit\blog\src\pages\email\+page.svelte">
+      <file name="+page.svelte" path="D:\workplace\fe-test\src\pages\email\+page.svelte">
         <metrics statements="90" coveredstatements="90" conditionals="4" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -324,8 +324,8 @@
       </file>
     </package>
     <package name="test">
-      <metrics statements="122" coveredstatements="122" conditionals="15" coveredconditionals="15" methods="0" coveredmethods="0"/>
-      <file name="EchartComponent.spec.js" path="D:\workspace\kit\blog\src\test\EchartComponent.spec.js">
+      <metrics statements="106" coveredstatements="106" conditionals="12" coveredconditionals="12" methods="0" coveredmethods="0"/>
+      <file name="EchartComponent.spec.js" path="D:\workplace\fe-test\src\test\EchartComponent.spec.js">
         <metrics statements="20" coveredstatements="20" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -348,7 +348,7 @@
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
       </file>
-      <file name="FlowEchartComponent.spec.ts" path="D:\workspace\kit\blog\src\test\FlowEchartComponent.spec.ts">
+      <file name="FlowEchartComponent.spec.ts" path="D:\workplace\fe-test\src\test\FlowEchartComponent.spec.ts">
         <metrics statements="16" coveredstatements="16" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -367,8 +367,8 @@
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
-      <file name="echart.spec.ts" path="D:\workspace\kit\blog\src\test\echart.spec.ts">
-        <metrics statements="28" coveredstatements="28" conditionals="5" coveredconditionals="5" methods="0" coveredmethods="0"/>
+      <file name="echart.spec.ts" path="D:\workplace\fe-test\src\test\echart.spec.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -381,24 +381,8 @@
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="27" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
       </file>
-      <file name="email.spec.ts" path="D:\workspace\kit\blog\src\test\email.spec.ts">
+      <file name="email.spec.ts" path="D:\workplace\fe-test\src\test\email.spec.ts">
         <metrics statements="39" coveredstatements="39" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -440,7 +424,7 @@
         <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
       </file>
-      <file name="validateUtils.spec.ts" path="D:\workspace\kit\blog\src\test\validateUtils.spec.ts">
+      <file name="validateUtils.spec.ts" path="D:\workplace\fe-test\src\test\validateUtils.spec.ts">
         <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -465,7 +449,7 @@
     </package>
     <package name="utils">
       <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <file name="validate-utils.ts" path="D:\workspace\kit\blog\src\utils\validate-utils.ts">
+      <file name="validate-utils.ts" path="D:\workplace\fe-test\src\utils\validate-utils.ts">
         <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="11" type="cond" truecount="2" falsecount="0"/>
